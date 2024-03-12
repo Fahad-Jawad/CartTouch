@@ -5,8 +5,8 @@ const cors = require("cors");
 const User = require("./firebase");
 
 const app = express();
-const port = 3000;
-app.use(cors());
+const port = process.env.PORT || 3030;app.use(cors());
+
 app.use(bodyParser.json());
 
 const accountSid = "AC583ca9cf2f5b7aab08790ab7c0c6ddb6";
@@ -62,5 +62,5 @@ app.post("/send-sms", (req, res) => {
 
 // Start the server
 app.listen(port, () => {
-  console.log(`Server is running on http://localhost:${port}`);
+  console.log(`Server is running on port:${port}`);
 });

@@ -1,0 +1,9 @@
+const firebaseConfig = {
+  apiKey: "AIzaSyDnIZzMarfyuyaIRzZ8_2UZvYjojhnxNdk",
+  authDomain: "carttouch-6562e.firebaseapp.com",
+  projectId: "carttouch-6562e",
+  storageBucket: "carttouch-6562e.appspot.com",
+  messagingSenderId: "454672076689",
+  appId: "1:454672076689:web:88bcd0c5966c3da07a5430",
+  measurementId: "G-VD9M2K7WY3",
+};
